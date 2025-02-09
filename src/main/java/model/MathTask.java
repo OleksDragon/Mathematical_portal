@@ -6,7 +6,8 @@ public class MathTask {
     private String description;
     private float answer;
 
-    public MathTask(String title, String description, float answer) {
+    public MathTask(int id, String title, String description, float answer) {
+        this.id = id;
         this.title = title;
         this.description = description;
         this.answer = answer;

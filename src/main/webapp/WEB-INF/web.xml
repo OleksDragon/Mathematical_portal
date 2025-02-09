@@ -4,4 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>MathTaskServlet</servlet-name>
+    <servlet-class>servlet.MathTaskServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MathTaskServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
 </web-app>
